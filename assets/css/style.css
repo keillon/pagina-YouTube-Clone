@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.container .bar{
+    padding: 5px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 10px;
+    
+}
+
+.container .youtube{
+    padding: 11px 0px 0px 0px;
+    margin: 0px 0px 0px 42px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.container .search{
+    margin-left: 35em;
+    padding-top: 6px;
+
+}
+
+.container .lupa{
+    position: absolute;
+    right: 31.2rem;
+    top: 15px;
+}
+
+.container .bell{
+    position: absolute;
+    right: 10rem;
+    top: 15px;
+}
+
+.container .video{
+    position: absolute;
+    right: 7rem;
+    top: 14px;
+}
+
+.container .logo{
+    position: absolute;
+    right: 3.7rem;
+    top: 10px;
+}
+
+.container-main{
+    max-width: 970px;
+    height: 640px;
+    padding: 10px;
+    margin: 10px 0px 0px 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.container-main .vid{
+    width: 980px;
+    height: 450px;
+}
+
+.container-main #vid-youtube{
+    width: 970px;
+    height: 450px;
+    position: absolute;
+
+}
+
+.container-main .text-titlle{
+    position: absolute;
+    bottom: 12.2rem;
+    left: 14px;
+    min-width: 100%;
+    
+}
+
+.container-main #titlle{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+}
+
+.container-main .dio{
+    position: absolute;
+    bottom: 6rem;
+    left: 1rem;
+}
+
+.container-main .insc{
+    position: absolute;
+    bottom: 6.3rem;
+    left: 4.5rem;
+}
+
+.container-main #dio{
+    font-weight: 600;
+    
+}
+
+.container-main #inscritos{
+    opacity: .7;
+}
+
+.container-main .inscreva-se{
+    position: absolute;
+    bottom: 5.9rem;
+    left: 15rem;
+}
+
+.container-main #inscreva-se{
+    position: absolute;
+    top: 0.7rem;
+    left: 2.7rem;
+    color: white;
+}
+
+.container-main .like{
+    position: absolute;
+    bottom: 6.5rem;
+    left: 30rem;
+    width: 100px;
+
+}
+
+.container-main #like{
+    position: absolute;
+    left: 30px;
+    top: 0.2rem;
+    text-align: center;
+
+}
+
+.container-main .deslike{
+    position: absolute;
+    bottom: 6.4rem;
+    left: 38rem;
+    width: 110px;
+}
+
+.container-main #deslike{
+    position: absolute;
+    left: 1.8rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.container-main .share{
+    position: absolute;
+    bottom: 6.5rem;
+    left: 45.5rem;
+}
+
+
+.container-main #share{
+    position: absolute;
+    left: 1.7rem;
+    top: 0.2rem;
+}
+
+.container-main .download{
+    position: absolute;
+    bottom: 6.5rem;
+    left: 53.7rem;
+    width: 100px;
+}
+
+.container-main #download{
+    position: absolute;
+    left: 1.7rem;
+    top: 0.2rem;
+}
+
+.container-main .data{
+    position: absolute;
+    top: 35.7rem;
+    left: 1.3rem;
+}
+
+.container-main #data{
+    font-size: 13px;
+}
+
+.container-main .desc{
+    position: absolute;
+    top: 37.5rem;
+    left: 1rem;
+    width: 620px;
+}
+
+.container-main #desc{
+    font-size: 14px;
+    opacity: .8;
+}
+
+.recomend{
+    width: 400px;
+    position: absolute;
+    left: 64.4rem;
+    top: 4.3rem;
+    font-size: 14px;
+    height: 480px;
+}
+
+.recomend .vid-rec{
+    
+    width: 160px;
+    
+}
+
+.recomend #titulo-rec{
+    position: absolute;
+    top: 0px;
+    left: 10.3rem;
+}
+
+.recomend #channel{
+    
+    position: absolute;
+    top: 2.8rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.recomend #visu{
+    position: absolute;
+    top: 10rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: .8;
+}
+
+.recomend #titulo-rec1{
+    position: absolute;
+    top: 5.9rem;
+    left: 10.3rem;
+}
+
+.recomend #channel1{
+    position: absolute;
+    top: 8.5rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.recomend #visu1{
+    position: absolute;
+    top: 4.6rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: .8;
+}
+
+.recomend .vid-rec1{
+    width: 160px;
+    
+}
+
+.recomend #titulo-rec2{
+    position: absolute;
+    top: 12rem;
+    left: 10.3rem;
+}
+
+.recomend #channel2{
+    position: absolute;
+    top: 15rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.recomend #visu2{
+    position: absolute;
+    top: 16.5rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: .8;
+}
+
+.recomend .vid-rec2{
+    width: 160px;
+}
+
+.recomend #titulo-rec3{
+    position: absolute;
+    top: 17.7rem;
+    left: 10.3rem;
+}
+
+.recomend #channel3{
+    position: absolute;
+    top: 20.2rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.recomend #visu3{
+    position: absolute;
+    top: 22.4rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: .8;
+}
+
+.recomend .vid-rec3{
+    width: 160px;
+}
+
+.recomend #titulo-rec4{
+    position: absolute;
+    top: 23.6rem;
+    left: 10.3rem;
+}
+
+.recomend #channel4{
+    position: absolute;
+    top: 26.2rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.recomend #visu4{
+    position: absolute;
+    top: 28.1rem;
+    left: 10.3rem;
+    font-size: 12px;
+    opacity: .8;
+}
+
+.recomend .vid-rec4{
+    width: 160px;
+}
+
